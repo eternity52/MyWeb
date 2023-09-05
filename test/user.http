@@ -1,0 +1,14 @@
+# 测试用户登陆功能
+POST http://127.0.0.1:5000/user/login/
+Content-Type: application/json
+
+{
+    "name": "flas",
+    "pwd": "123"
+}
+
+### 测试用户注册功能
+POST http://127.0.0.1:5000/user/users/
+
+### 测试登陆装饰器是否有用
+GET http://127.0.0.1:5000/user/test/
